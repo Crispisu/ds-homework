@@ -27,3 +27,5 @@ d1 = {
 # Afisam listele l1 si l2
 print(l1, l2)
 print (d1)
+
+# valorile sunt corecte, dar nu stiu sa il fac sa arate asa cum ati spus voi mai sus :(

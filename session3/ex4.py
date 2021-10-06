@@ -16,3 +16,4 @@ l1 = list(t1) + [2] + list(t2)
 # Afisam lista
 print(l1)
 
+# cred ca este si o alta metoda, insa nu am reusit sa o identific, o sa ne uitam si impreuna peste ele?

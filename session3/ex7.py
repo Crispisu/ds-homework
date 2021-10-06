@@ -18,3 +18,6 @@ s1.add(4)
 s1.update (l1)
 # Afisam setul dupa schimbare
 print(s1)
+
+# nu am inteles asta: Va veti folosi de lista, veti accesa elementele si le veti adauga in set
+# am facut cum am stiut ca sa imi dea ce s-a cerut, dar partea de mai sus nu am inteles-o
