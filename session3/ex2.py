@@ -17,5 +17,9 @@ print(l3)
 # sau, mai simplu, direct:
 print (l1+l2)
 
+# sau, mai dragut, asa:
+
 l1.extend(l2)
 print(l1)
+
+# Sunt corecte cele 3 metode?
