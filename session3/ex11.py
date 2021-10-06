@@ -18,5 +18,15 @@ for i in range (0,x):
     if i % 2 == 1:
         print (i)
 
+# si un experiment (reusit dupa search pe google :D)
+
+x = input()
+try: 
+    x = int (x)
+    for i in range (0,x):
+        if i % 2 == 1:
+            print (i)
+except ValueError:
+    print("Input a number")
     
 
