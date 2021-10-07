@@ -16,3 +16,9 @@
             2: 'i'
         }
 """
+string = input()
+x = int(input())
+d = {}
+for i in range (0,x):
+    d[i] = string[i]
+print(d)
