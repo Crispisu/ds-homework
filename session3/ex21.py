@@ -10,3 +10,15 @@
         Veti primi: 'cmi', 'center', 'for', 'machines'
         Veti printa: ['cm', 'cente', 'fo', 'machine']
 """
+
+
+
+x = input()
+l = []
+
+while (x != "exit"):
+    l.append(x[0:len(x)-1])
+    x = input()
+
+print(l)
+    
