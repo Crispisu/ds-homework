@@ -10,13 +10,18 @@
 """
 
 x = int(input())
+l1 = []
+
 
 for i in range (1,x):
     if x % 2 == 0:
-        print (i)
+        l1.append (i)
+        
     else:
-        print (i ** 2)
+        l1.append (i ** 2)
+        
 
+print (l1)
 
 
 
