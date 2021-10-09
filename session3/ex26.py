@@ -13,3 +13,9 @@
         False
         False
 """
+x = input()
+
+while x != 'exit':
+    x = int(x)
+    print (True) if x % 2 == 0 else print (False)
+    x = input()
