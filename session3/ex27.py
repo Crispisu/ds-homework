@@ -7,3 +7,18 @@
         Veti primi: 5
         Veti printa: 'ashdj' (poate fi orice alt string)
 """
+
+
+
+
+
+from random import choice
+
+
+x = input()
+letters = 'abcdefghijklmnopqrstuvyz'
+s = ''
+for i in range (0, int(x)):
+    s += choice(letters)
+
+print(s)
