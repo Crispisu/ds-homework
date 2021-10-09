@@ -14,3 +14,10 @@
         Veti primi: 'cojoc'
         Veti printa: True
 """
+
+x = input()
+y = ""
+
+for i in x:
+    y = i + y
+print (True) if (x == y) else print (False)
