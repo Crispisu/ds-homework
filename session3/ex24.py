@@ -14,3 +14,12 @@
         Veti primi: 1232
         Veti printa: False
 """
+nr = int(input())
+aux = int(nr)
+y = 0
+
+while aux != 0:
+    y = y * 10 + aux % 10
+    aux = aux//10
+print (True) if nr == y else print (False)
+
