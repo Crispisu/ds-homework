@@ -11,6 +11,7 @@
 
 
 
+# asta l-am facut pwntru ca am gasit pe net cum sa faci random. se poate face si fara import?
 
 from random import choice
 
