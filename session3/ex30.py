@@ -10,3 +10,54 @@
         Veti primi: '(()]'
         Veti printa: False
 """
+x = input()
+l = []
+
+for i in x:
+    l.append(i)
+try:
+    for element in l:
+        if element == "(":
+            l.pop(l.index(")"))
+        if element == "[":
+            l.pop(l.index("]"))
+        if element == "{":
+            l.pop(l.index("}"))
+except ValueError:
+    print (False)
+else:
+    print (True)
+
+# else:
+
+x = input()
+r_d = 0
+r_i = 0
+p_d = 0
+p_i = 0
+a_d = 0
+a_i = 0
+
+for i in x:
+    if i == "(":
+        r_d += 1
+    if i == ")":
+        r_i += 1
+    if i == "[":
+        p_d += 1
+    if i == "]":
+        p_i += 1
+    if i == "{":
+        a_d += 1
+    if i == "}":
+        a_i += 1
+if r_d == r_i and p_d == p_i and a_d == a_i:
+    print(True)
+else: 
+    print(False)
+    
+
+
+        
+        
+    
