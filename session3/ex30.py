@@ -12,7 +12,6 @@
 """
 x = input()
 l = []
-pop_previous = False
 
 for i in x:
     l.append(i)
