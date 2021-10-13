@@ -14,8 +14,9 @@
 """
 
 
-def func(param1, param2):
+def func(param2, param1):
     return param1, param2
 
 
 print(func('cmi1', 'cmi2'))
+
