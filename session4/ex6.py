@@ -9,7 +9,8 @@
 """
 
 x = input()
-litere = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","p","q","r","s","t","u","v","x","y","z"]
+t = "abcdefghijklmnopqrstuvwxyz"
+litere = list(t)
 
 
 def next_letter (string):
