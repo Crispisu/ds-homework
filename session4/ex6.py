@@ -7,3 +7,17 @@
         - func('aabbcc')
             ---> 'bbccdd'
 """
+
+x = input()
+litere = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","p","q","r","s","t","u","v","x","y","z"]
+
+
+def next_letter (string):
+    s = ""
+    for i in string:
+        s = s + litere[litere.index(i)+1]
+    return(s)
+
+print(next_letter(x))
+
+
