@@ -11,3 +11,23 @@
         si definitia functiei)
         - hint: list comprehensions (google it if you don't know it already)
 """
+x = int(input())
+l = [i + 1 for i in range(0,x)]
+
+
+def adauga_1 (lista):
+    print([elem + 1 for elem in lista])
+
+adauga_1(l)
+
+# si pt ca mai sus am avut impresia ca lista tb sa fie in baza unui input, ma pedepsesc eu pe mine si fac si varianta
+# pe care ati cerut-o voi:
+
+x = [5,6,7]
+
+def adaugaunu (lista):
+    print([n +1 for n in x])
+
+adaugaunu(x)
+
+    
