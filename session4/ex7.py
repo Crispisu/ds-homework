@@ -12,3 +12,15 @@
     Observatii:
         - functia trebuie sa aiba MAXIM 1 linie de cod ca si body
 """
+
+from typing_extensions import Concatenate
+
+
+x = input("Introdu un prefix:")
+y = input("Introdu cuvantul:")
+z = input("Introdu si un sufix:")
+
+def cuvant_nou (prefix, cuvant, sufix):
+    return (prefix + cuvant + sufix)
+
+print(cuvant_nou(x,y,z))
