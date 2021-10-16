@@ -7,8 +7,11 @@
     Functia decorata este f.
 """
 def dec(func):
-    f = open("output11.data", "w")
-    f.write(func())
+    def wrapper ():
+        f = open("output11.data", "w")
+        f.write(func())
+        f.close()
+    return wrapper
       
 
 # decorate me
@@ -16,9 +19,10 @@ def dec(func):
 def f():
     return "CMI"
 
-f
+f()
 
 file = open("output11.data","r")
 print(file.read())
+file.close()
 
 
