@@ -5,7 +5,16 @@
 
 """
 
+def dec(func):
+    def wrapper():
+        x = func()
+        print(x.upper())
+    return wrapper
+
 
 # decoarate me
+@dec
 def f():
     return 'cmi'
+
+f()
