@@ -20,34 +20,6 @@
             ---> ceva1
 """
 
-
-
-
-# def call_changers(func):
-#     x = input()
-#     my_str = str(x)
-#     if len(my_str) % 2 == 0:
-#         def up_str(my_str):
-#             return my_str.upper()
-#     else:
-#         def low_str(my_str):
-#             return my_str.lower()
-#     print(call_changers(x))
-
-# x = input()
-# my_str = str(x)
-   
-# def up_str(my_str):
-#     return my_str.upper()
-    
-# def low_str(my_str):
-#     return my_str.lower()
-
-# def call_changers(func,x):
-#     print(up_str(x)) if len(my_str) % 2 == 0 else print(low_str(x))
-
-# call_changers(up_str(x),low_str(x))
-
 x = input()
 my_str = str(x)
    
