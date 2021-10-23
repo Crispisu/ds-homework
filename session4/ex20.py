@@ -7,13 +7,6 @@
 """
 import json
 
-# def read_from_file(file):
-#     with open ('pisimic2.json') as file:
-#         content = file.read()
-#         print(content)
-
-# read_from_file('pisimic2.json')
-
 def read_from_file(filename):
     with open (filename) as file:
         content = file.read()
